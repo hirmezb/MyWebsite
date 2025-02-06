@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Benel Hirmez | Full Stack Software Engineer</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="hero" id="hero">
+  <div id="particles-js"></div>
+  <div class="heading">
+    <div class="heading__line-1">Hello, I'm Benel.</div>
+    <div class="heading__line-2">I'm a full stack software engineer.</div>
+    <a href="#about" class="heading__link">
+      <div class="heading-cta">View my work</div>
+    </a>
+  </div>
+</div>
+
+<nav class="navigation-bar">
+  <ul class="navigation">
+    <li class="navigation__item" id="nav-hero"><a href="#hero">Home</a></li>
+    <li class="navigation__item" id="nav-about"><a href="#about">About</a></li>
+    <li class="navigation__item" id="nav-projects"><a href="#projects">Projects</a></li>
+    <li class="navigation__item" id="nav-contact"><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<section class="about" id="about">
+  <h2 class="about__heading section-heading">About</h2>
+  <div class="about__content">
+    <div class="profile">
+      <div class="profile__picture">
+        <img src="images/profile-placeholder.png" alt="Profile Picture">
+      </div>
+      <p class="profile__blurb">Fully committed to the philosophy of life-long learning, I’m a full stack developer with a deep passion for JavaScript, React, and all things web development. The unique combination of creativity, logic, and technology drives my excitement and passion for web development. When I’m not at my computer I like to spend my time reading, keeping fit, and playing guitar.</p>
+    </div>
+    <div class="skills">
+      <div class="skills__row">
+        <div class="skills__item">
+          <img src="images/html.png" alt="HTML">
+          <div class="skills__item-name">HTML</div>
+        </div>
+        <div class="skills__item">
+          <img src="images/css.png" alt="CSS">
+          <div class="skills__item-name">CSS</div>
+        </div>
+        <div class="skills__item">
+          <img src="images/js.png" alt="JavaScript">
+          <div class="skills__item-name">JavaScript</div>
+        </div>
+      </div>
+      <div class="skills__row">
+        <div class="skills__item">
+          <img src="images/react.png" alt="React">
+          <div class="skills__item-name">React</div>
+        </div>
+        <div class="skills__item">
+          <img src="images/node.png" alt="Node.js">
+          <div class="skills__item-name">Node.js</div>
+        </div>
+        <div class="skills__item">
+          <img src="images/mongo.png" alt="MongoDB">
+          <div class="skills__item-name">MongoDB</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="projects" id="projects">
+  <h2 class="projects__heading section-heading">Projects</h2>
+  <div class="project-grid">
+    <div class="project">
+      <img src="images/project1.jpg" alt="Project 1">
+      <h3>Project Title</h3>
+      <p>Short description of the project.</p>
+      <a href="#" class="view-btn">View Project</a>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <h2 class="contact__heading section-heading">Contact</h2>
+  <p class="contact__text">Have a question or want to work together? Leave your details and I'll get back to you as soon as possible.</p>
+  <form>
+    <input class="contact__form-name" name="name" placeholder="Name" required>
+    <input class="contact__form-email" type="email" name="email" placeholder="Email" required>
+    <textarea class="contact__form-message" name="message" placeholder="Message" required></textarea>
+    <button type="submit" class="contact__form-submit">Submit</button>
+  </form>
+</section>
+
+<footer class="footer">
+  <a href="#hero">
+    <div class="return-home">⬆</div>
+  </a>
+  <div class="socials">
+    <a href="#"><img src="images/github.png" alt="GitHub"></a>
+    <a href="#"><img src="images/email.png" alt="Email"></a>
+  </div>
+  <p class="copyright">Benel Hirmez ©2024</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/tsparticles@2.12.0/tsparticles.bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
