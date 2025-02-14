@@ -1,109 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Benel Hirmez | Full Stack Software Engineer</title>
-  <link rel="stylesheet" href="styles.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Benel Hirmez | Full Stack Software Engineer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Raleway:wght@300;400;500;600;700&display=swap"
+          rel="stylesheet">
 </head>
 <body>
 
+<!-- Hero Section -->
 <div class="hero" id="hero">
-  <div id="particles-js"></div>
-  <div class="heading">
-    <div class="heading__line-1">Hello, I'm Benel.</div>
-    <div class="heading__line-2">I'm a full stack software engineer.</div>
-    <a href="#about" class="heading__link">
-      <div class="heading-cta">View my work</div>
-    </a>
-  </div>
+    <div id="particles-js"></div>
+    <div class="heading">
+        <div class="heading_line-1">Hello, I'm Benel.</div>
+        <div class="heading_line-2">I'm a full stack software engineer.</div>
+        <a href="#about" class="heading_link">
+            <div class="heading-cta">View my work</div>
+        </a>
+    </div>
 </div>
 
+<!-- Navigation -->
 <nav class="navigation-bar">
-  <ul class="navigation">
-    <li class="navigation__item" id="nav-hero"><a href="#hero">Home</a></li>
-    <li class="navigation__item" id="nav-about"><a href="#about">About</a></li>
-    <li class="navigation__item" id="nav-projects"><a href="#projects">Projects</a></li>
-    <li class="navigation__item" id="nav-contact"><a href="#contact">Contact</a></li>
-  </ul>
+    <ul class="navigation">
+        <li class="navigation_item"><a href="#hero">Home</a></li>
+        <li class="navigation_item"><a href="#about">About</a></li>
+        <li class="navigation_item"><a href="#projects">Projects</a></li>
+        <li class="navigation_item"><a href="#contact">Contact</a></li>
+    </ul>
 </nav>
 
+<!-- About Section -->
 <section class="about" id="about">
-  <h2 class="about__heading section-heading">About</h2>
-  <div class="about__content">
-    <div class="profile">
-      <div class="profile__picture">
-        <img src="images/profile-placeholder.png" alt="Profile Picture">
-      </div>
-      <p class="profile__blurb">Fully committed to the philosophy of life-long learning, I’m a full stack developer with a deep passion for JavaScript, React, and all things web development. The unique combination of creativity, logic, and technology drives my excitement and passion for web development. When I’m not at my computer I like to spend my time reading, keeping fit, and playing guitar.</p>
+    <h2 class="about_heading section-heading">About</h2>
+    <div class="about_content">
+        <div class="profile">
+            <div class="profile_picture">
+                <img src="images/avatar.png" alt="Profile Picture">
+            </div>
+            <p class="profile_blurb">I transitioned from a career in biotech to software development, driven by a passion for learning new things and problem-solving. The combination of logic, creativity, and technology excites me, especially in full-stack development. I enjoy working with modern frameworks and continuously expanding my skill set. When I’m not working, I like exploring new technologies, reading, and cycling.</p>
+        </div>
+        <div class="skills">
+            <div class="skills_row">
+                <div class="skills_item">
+                    <img src="images/html.png" alt="HTML">
+                    <div class="skills_item-name">HTML</div>
+                </div>
+                <div class="skills_item">
+                    <img src="images/css.png" alt="CSS">
+                    <div class="skills_item-name">CSS</div>
+                </div>
+                <div class="skills_item">
+                    <img src="images/javascript.png" alt="JavaScript">
+                    <div class="skills_item-name">JavaScript</div>
+                </div>
+            </div>
+            <div class="skills_row">
+                <div class="skills_item">
+                    <img src="images/react.png" alt="React">
+                    <div class="skills_item-name">React</div>
+                </div>
+                <div class="skills_item">
+                    <img src="images/django.png" alt="Django">
+                    <div class="skills_item-name">Django</div>
+                </div>
+                <div class="skills_item">
+                    <img src="images/csharp.png" alt="C#">
+                    <div class="skills_item-name">C#</div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="skills">
-      <div class="skills__row">
-        <div class="skills__item">
-          <img src="images/html.png" alt="HTML">
-          <div class="skills__item-name">HTML</div>
-        </div>
-        <div class="skills__item">
-          <img src="images/css.png" alt="CSS">
-          <div class="skills__item-name">CSS</div>
-        </div>
-        <div class="skills__item">
-          <img src="images/js.png" alt="JavaScript">
-          <div class="skills__item-name">JavaScript</div>
-        </div>
-      </div>
-      <div class="skills__row">
-        <div class="skills__item">
-          <img src="images/react.png" alt="React">
-          <div class="skills__item-name">React</div>
-        </div>
-        <div class="skills__item">
-          <img src="images/node.png" alt="Node.js">
-          <div class="skills__item-name">Node.js</div>
-        </div>
-        <div class="skills__item">
-          <img src="images/mongo.png" alt="MongoDB">
-          <div class="skills__item-name">MongoDB</div>
-        </div>
-      </div>
-    </div>
-  </div>
 </section>
 
+<!-- Projects Section -->
 <section class="projects" id="projects">
-  <h2 class="projects__heading section-heading">Projects</h2>
-  <div class="project-grid">
-    <div class="project">
-      <img src="images/project1.jpg" alt="Project 1">
-      <h3>Project Title</h3>
-      <p>Short description of the project.</p>
-      <a href="#" class="view-btn">View Project</a>
+    <h2 class="projects_heading section-heading">Projects</h2>
+    <div class="project-grid">
+        <div class="project">
+            <h3>Flirpy Birb</h3>
+            <p>2-D arcade game inspired by Flappy Bird, built using Unity and C#.</p>
+            <a href="https://github.com/hirmezb/FlirpyBirbWebBuild" class="view-btn" target="_blank">View Project</a>
+            <a href="https://hirmezb.github.io/FlirpyBirbWebBuild/" class="view-btn" target="_blank">View Live App</a>
+        </div>
+
+        <div class="project">
+            <h3>Pharma Database</h3>
+            <p>Normalized SQL relational database utilizing indexing and sequencing for efficiency.</p>
+            <a href="https://github.com/hirmezb/PharmaDatabase" class="view-btn" target="_blank">View Project</a>
+        </div>
     </div>
-  </div>
 </section>
 
+<!-- Contact Section -->
 <section class="contact" id="contact">
-  <h2 class="contact__heading section-heading">Contact</h2>
-  <p class="contact__text">Have a question or want to work together? Leave your details and I'll get back to you as soon as possible.</p>
-  <form>
-    <input class="contact__form-name" name="name" placeholder="Name" required>
-    <input class="contact__form-email" type="email" name="email" placeholder="Email" required>
-    <textarea class="contact__form-message" name="message" placeholder="Message" required></textarea>
-    <button type="submit" class="contact__form-submit">Submit</button>
-  </form>
+    <h2 class="contact_heading section-heading">Contact</h2>
+    <p class="contact_text">If you'd like to reach me, leave your details and I'll get back to you as soon as possible.</p>
+    <form class="contact_form" id="contactForm" action="https://formspree.io/f/xrbeawkg" method="POST">
+        <input class="contact_form-name" name="name" placeholder="Name" required/>
+        <input class="contact_form-email" type="email" name="_replyto" placeholder="Email" required/>
+        <textarea class="contact_form-message" name="message" placeholder="Message" required></textarea>
+        <button type="submit" class="contact_form-submit">Submit</button>
+    </form>
 </section>
 
+<!-- Footer -->
 <footer class="footer">
-  <a href="#hero">
-    <div class="return-home">⬆</div>
-  </a>
-  <div class="socials">
-    <a href="#"><img src="images/github.png" alt="GitHub"></a>
-    <a href="#"><img src="images/email.png" alt="Email"></a>
-  </div>
-  <p class="copyright">Benel Hirmez ©2024</p>
+    <a href="#hero">
+        <div class="return-home">⬆</div>
+    </a>
+    <div class="socials">
+        <a href="https://github.com/hirmezb" target="_blank"><img src="images/github.png" alt="GitHub"></a>
+        <a href="mailto:benel.hirmez@gmail.com" target="_blank"><img src="images/gmail.png" alt="Email"></a>
+    </div>
+    <p class="copyright">Benel Hirmez ©2024</p>
 </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/tsparticles@2.12.0/tsparticles.bundle.min.js"></script>
